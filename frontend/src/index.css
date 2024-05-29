@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;800&family=Work+Sans&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #05101c ;
+  color:  #f5f5dc;
+  font-family: "Roboto Slab", serif;
+  
+}
+
+.image-inverted {
+  filter: invert(100%);
+  /* background: #05101c;
+  border-radius: 50%;  */
+  fontSize: bold;
+}
+
+.nav-link {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 8px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.MuiOutlinedInput-input-root.Mui-focused,
+.MuiOutlinedInput-notchedOutline {
+border-color: white !important;
+}
+
+ Button.btn-submit{
+  margin: auto;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #9294f8;
+  font-size: 25px;
+  padding: 16px 46px;
+  margin-top: 10px;
+  position: relative;
+  border-radius: 25px;
+  overflow: hidden;;
+  height: 60px;
+}
+Button.btn-submit:hover{
+  box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, .4);}
+
+Button.btn-submit::before{
+  content:'';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(146, 148, 248, .4), transparent);
+  transition: all 650ms;
+}
+Button.btn-submit:hover::before{
+  left: 100%;
+}
+
+
+.chat-body{
+  background-image: url(/background.png);
+  background-position: center;
+  background-size: cover;
+height:100%;
+border-radius: 20px;
+
+}
